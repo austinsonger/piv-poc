@@ -28,10 +28,14 @@ A template to quickly get up and coding your [Django](https://www.djangoproject.
         ```cmd
         $ git clone https://github.com/realestKMA/djangoup.git
         ```
-    * move into repo directory: 
+    * Create a virtual environment:
         ```cmd 
-        $ cd djangoup
+        $ python -m venv venv
         ```
+    * Install dependencies in the ```requirements``` file  using ```pip```:
+       ```cmd
+       $ pip install -r requirements.txt
+       ```
 
     * create an ```.env``` file with data from the ```.env.sample``` and fill the required details:
         ```cmd
