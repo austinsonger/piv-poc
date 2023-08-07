@@ -36,6 +36,10 @@ A template to quickly get up and coding your [Django](https://www.djangoproject.
        ```cmd
        pip install -r requirements.txt
        ```
+    * If you need to upgrade all packages in ```requirements.txt``` file do:
+       ```cmd
+       pip-review --auto
+       ```
     * create an ```.env``` file with data from the ```.env.sample``` and fill the required details:
         ```cmd
         cp .env.sample .env
