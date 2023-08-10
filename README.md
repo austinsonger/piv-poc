@@ -72,6 +72,10 @@ Please note, the settings module has been split into three seperate modules as p
     
     This module also imports all settings from the ```base``` module. Here, i provide and/or make changes that is required for my production environment.
 
+## Environment variables
+Environment variables are referenced in the ```src/env.py``` module. This way, you can simply import the ```env``` module and do
+```SECRET_KEY``` = ```env.SECRET_KEY```
+
 ## Database
 
 To get up and coding your django apps, a ```postgres``` database has also been provided in the docker compose file. This will serve as the default database as specifeid in the [development.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/development.py) & [production.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/production.py) settings module. 
